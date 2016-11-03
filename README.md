@@ -12,7 +12,7 @@ fn random() -> usize {
 }
 ```
 
-converts to
+renders as
 
 ```rust
 fn random() → usize {
@@ -23,5 +23,4 @@ fn random() → usize {
     }
 }
 ```
-
 Inspired by [vim-cute-python](https://github.com/ehamberg/vim-cute-python/).
