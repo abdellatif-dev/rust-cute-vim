@@ -27,4 +27,4 @@ hi link rsCuteKeyword Keyword
 hi! link Conceal Operator
 
 setlocal conceallevel=1
-setlocal concealcursor="ncvi
+setlocal concealcursor=ncvi
