@@ -17,6 +17,8 @@ syntax match rsCuteOperator "\^" conceal cchar=⊕
 " Only conceal “==” if alone, to avoid concealing SCM conflict markers.
 syntax match rsCuteOperator "=\@<!===\@!" conceal cchar=≟
 syntax match rsCuteOperator "!=" conceal cchar=≠
+syntax match rsCuteOperator "/" conceal cchar=÷
+syntax match rsCuteOperator "*" conceal cchar=.
 
 hi link rsCuteOperator Operator
 hi! link Conceal Operator
